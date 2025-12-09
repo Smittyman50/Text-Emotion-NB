@@ -178,7 +178,3 @@ pip install -r requirements.txt
 - **Metric of record**: `test_macro_f1` serves as the sole promotion criterion for selecting the best model—no fallback or proxy metrics are used.
 - **Comprehensive artifact logging**: each trial captures all metrics, confusion matrices, feature-importance summaries, and word-cloud visualizations directly under its own directory for full traceability.
 - **Explainability emphasis**: artifacts such as `top_words_per_class.json` and `top_missclassifications.csv` provide insight into feature influence and model behavior, supporting qualitative analysis alongside quantitative metrics.
-
-## License
-
-This project is provided for educational purposes
