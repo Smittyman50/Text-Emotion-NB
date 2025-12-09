@@ -1,0 +1,7 @@
+# Ignore everything in /data
+**
+
+# Keep directories and placeholder files
+!*/
+!.gitignore
+!.gitkeep
