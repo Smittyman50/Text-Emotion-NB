@@ -31,8 +31,6 @@ Its primary functions and features include:
 
 This notebook defines, trains, and evaluates the text-based emotion classifier built around the TF–IDF + Multinomial Naive Bayes pipeline.
 
-It follows a modular and reproducible structure similar to my first model.
-
 Its primary functions and features include:
 
 - **Environment setup**: defines the directory constants (`DATA`, `SPLIT_DIR`, `ART`, `MODELS`, `TRIALS_ROOT`, `OUTPUTS_DIR`) and verifies that all required folders exist for saving artifacts and outputs.
