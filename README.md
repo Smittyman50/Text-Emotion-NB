@@ -127,12 +127,12 @@ pip install -r requirements.txt
 4. **Download the dataset from https://www.kaggle.com/datasets/bhavikjikadara/emotions-dataset and extract it into the `./data/data_raw/` directory.**
 
 5. **Run data preparation**
-    - Open `02_prepare_dataset.ipynb`.
+    - Open `01_prepare_dataset.ipynb`.
     - Execute all cells to clean and standardize the dataset.
     - Confirm that `clean.csv`, `label_map.json`, and `manifest.json` exist under `./artifacts/outputs/`.
 
 6. **Run model training**
-    - Open `D804_PA_Model_TextEmotionNB.ipynb`.
+    - Open `TextEmotionNB.ipynb`.
     - Run all cells sequentially.
     - The notebook will:
       - Load `clean.csv` and labels.
